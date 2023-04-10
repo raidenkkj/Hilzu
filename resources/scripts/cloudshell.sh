@@ -1,5 +1,7 @@
 #!/bin/bash
 
+touch ~/.cloudshell/no-apt-get-warning
+
 bash <(curl -s https://raw.githubusercontent.com/raidenkkj/Hilzu/master/resources/scripts/ubuntu_install.sh)
 
 npm install -g pm2

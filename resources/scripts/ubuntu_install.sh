@@ -39,8 +39,3 @@ cd Loader
 echo "[★] - Installing requirements"
 bash install_req
 
-echo -n "[ ? ] - Do you want to generate your string session now? (Yy/Nn)?"
-read answer </dev/tty
-if [[ "$answer" != "${answer#[Yy]}" ]]; then
-    bash genStr
-fi
